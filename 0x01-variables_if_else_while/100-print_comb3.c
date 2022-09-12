@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print single digit numbers starting from 0
+ * main - Print sinle digit numbers starting from 0
  *
  * Return: returns zero at the end
  */
@@ -16,6 +16,7 @@ int main(void)
 			{
 				putchar(i + '0');
 				putchar(j + '0');
+
 				if (i != 8)
 				{
 					putchar(',');
@@ -25,5 +26,6 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	putchar(0);
+	return (0);
 }
+
