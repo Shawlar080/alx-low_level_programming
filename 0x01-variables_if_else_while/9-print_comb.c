@@ -1,8 +1,8 @@
 #include <stdio.h>
+
 /**
- * main - Prints series of numbers separated by commas
- * Description: using the main function
- * this program prints "0,1,2,3,4,5,6,7,8,9"
+ * main - Prints aseries of numbers separated by commas
+ *
  * Return: 0
  */
 int main(void)
@@ -11,13 +11,14 @@ int main(void)
 
 	for (c = '0'; c <= '9'; c++)
 	{
-	putchar(c);
-if (c != '9')
-{
-putchar(',')
-putchar(' ');
-}
-}
-putchar('\n');
-return (0);
+		putchar(c);
+
+		if (c != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
+	return (0);
 }
